@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    color: white;
+    background-color: #1c1c1c;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(242, 139, 14);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.soft,.tech {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tech {
+    background-color: rgb(102, 102, 243);
+}
+
+.soft {
+    background-color:  rgb(126, 126, 248);
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 0;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.6;
+}

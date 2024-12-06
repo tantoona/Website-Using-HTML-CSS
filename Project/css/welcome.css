@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f9f9f9;
+    margin: 5px;
+    border: #A87676 solid 3px;
+    border-radius: 4px;
+
+}
+
+div {
+    background-image: url('../photos/skills.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+    color: rgb(242, 139, 14);
+    text-align: center;
+    font-size: 70px;
+    padding: 18px;
+}
